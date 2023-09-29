@@ -5,7 +5,7 @@
 #include <vector>
 #include <string>
 #include <iomanip>
-#include <limits> // Include the <limits> header for numeric_limits
+#include <limits> 
 
 using namespace std;
 
@@ -21,7 +21,7 @@ void addExpense(vector<Expense> &expenses, const string &filename)
     Expense newExpense;
     cout << "Enter date (YYYY-MM-DD): ";
     cin >> newExpense.date;
-    cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Clear the newline character from the input buffer
+    cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
     cout << "Enter description: ";
     getline(cin, newExpense.description);
 
@@ -35,14 +35,14 @@ void addExpense(vector<Expense> &expenses, const string &filename)
         else
         {
             cout << "Invalid input. Please enter a valid amount." << endl;
-            cin.clear();                                         // Clear error flags
-            cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard the invalid input
+            cin.clear();                                         
+            cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
         }
     }
 
     expenses.push_back(newExpense);
 
-    ofstream file(filename, ios::app); // Open the file for appending
+    ofstream file(filename, ios::app); 
     if (file.is_open())
     {
         file << newExpense.date << " | " << newExpense.description << " | $" << fixed << setprecision(2) << newExpense.amount << endl;
@@ -84,18 +84,18 @@ void displaySummary(const vector<Expense> &expenses)
 
 int main()
 {
-    const string filename = "expenses.txt"; // File path for storing expenses
+    const string filename = "expenses.txt"; 
 
-    vector<Expense> expenses; // Vector to store expense data
+    vector<Expense> expenses; 
 
-    ifstream file(filename); // Open the file for reading
+    ifstream file(filename); 
     if (file.is_open())
     {
         Expense expense;
         while (getline(file, expense.date, '|') && getline(file, expense.description, '|'))
         {
             file >> expense.amount;
-            file.ignore(); // Consume the newline character
+            file.ignore(); 
             expenses.push_back(expense);
         }
         file.close();
