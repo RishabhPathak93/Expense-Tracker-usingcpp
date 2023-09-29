@@ -8,3 +8,11 @@ This C++ program, "Expense Tracker," allows you to record and manage your expens
 2. Display Expense Summary: You can view a summary of all recorded expenses, including the total expenses, the number of expenses recorded, and a detailed list of expenses with dates, descriptions, and amounts.
 
 3. Quit: Exit the Expense Tracker application.
+
+# Getting Started:
+Prerequisites
+To run this program, you need:
+
+A C++ compiler installed on your system.
+Compilation
+You can compile the program using a C++ compiler. For example, you can use g++ on a Unix-based system:
