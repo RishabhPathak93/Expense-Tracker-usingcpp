@@ -25,7 +25,7 @@ Expense Tracker is a simple C++ program that allows you to track and manage your
 4. Expense data is stored in a text file named 'expenses.txt' in the same directory as the program. You can review and manage your expenses by editing this file.
 
 # OUTPUT
-![Screenshot]([https://github.com/RishabhPathak93/Expense-Tracker-usingcpp/raw/main/assets/123829611/a38e6d35-31d9-4944-b067-b24abfa0ce72.png](https://github.com/RishabhPathak93/Expense-Tracker-usingcpp/assets/123829611/36f526c0-a035-47ba-b86c-859f0cf5c803)https://github.com/RishabhPathak93/Expense-Tracker-usingcpp/assets/123829611/36f526c0-a035-47ba-b86c-859f0cf5c803)
+![output](https://github.com/RishabhPathak93/Expense-Tracker-usingcpp/assets/123829611/7c2668e0-eadf-4a6e-95c7-3ad9c794045c)
 
 
 # License:
