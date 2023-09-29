@@ -9,10 +9,12 @@ This C++ program, "Expense Tracker," allows you to record and manage your expens
 
 3. Quit: Exit the Expense Tracker application.
 
-# Getting Started:
+Getting Started:
+
 Prerequisites
 To run this program, you need:
 
 A C++ compiler installed on your system.
 Compilation
-You can compile the program using a C++ compiler. For example, you can use g++ on a Unix-based system:
+You can compile the program using a C++ editors like, VS Code, Codeblock etc:
+
