@@ -1,63 +1,28 @@
 # Expense Tracker
+
 Expense Tracker is a simple C++ program that allows you to track and manage your expenses. It provides a text-based interface for adding expenses, displaying a summary of your expenses, and quitting the program. This repository contains the source code for the Expense Tracker program.
 
-Table of Contents
-1. Features
-2. Getting Started
-    a.Prerequisites
-    b. Clone the Repository
-    c. Compilation
-3. Usage
-4. License
-# Features<a name="features"></a>
+# Features:
+- Add expenses with a date, description, and amount.
+- Display a summary of all recorded expenses, including total expenses and the number of expenses.
+- Data is stored in a text file for persistent storage.
 
-1. Add expenses with a date, description, and amount.
-2. Display a summary of all recorded expenses, including total expenses and the number of expenses.
-3. Data is stored in a text file for persistent storage.
-# Getting Started<a name="getting-started"></a>
+# Usage:
+1. Run the program using the following command:
 
-Prerequisites<a name="prerequisites"></a>
-Before you begin, ensure you have met the following requirements:
-C++ compiler (e.g., g++) installed on your system.
+   ./expense_tracker
 
-# Clone the Repository<a name="clone-the-repository"></a>
-To get a local copy of the Expense Tracker program, you can use the following command in your terminal:
+2. The program will display a menu with the following options:
+   - 1. Add an Expense: Allows you to add a new expense with a date, description, and amount.
+   - 2. Display Expense Summary: Shows a summary of all recorded expenses.
+   - 3. Quit: Exits the Expense Tracker program.
 
-shell
-Copy code
-git clone git@github.com:RishabhPathak93/Expense-Tracker-usingcpp.git
-Replace your-username with your GitHub username.
+3. Follow the on-screen instructions to use the program:
+   - To add an expense, choose option 1 and enter the required information.
+   - To view a summary of expenses, choose option 2.
+   - To quit the program, choose option 3.
 
-Compilation<a name="compilation"></a>
-To compile the program, navigate to the project directory:
+4. Expense data is stored in a text file named 'expenses.txt' in the same directory as the program. You can review and manage your expenses by editing this file.
 
-shell
-Copy code
-cd expense-tracker
-Then, use the following command to compile the program:
-
-shell
-Copy code
-g++ main.cpp -o expense_tracker
-
-# Usage<a name="usage"></a>
-Run the program using the following command:
-shell
-Copy code
-./expense_tracker
-The program will display a menu with the following options:
-
-Add an Expense: Allows you to add a new expense with a date, description, and amount.
-Display Expense Summary: Shows a summary of all recorded expenses.
-Quit: Exits the Expense Tracker program.
-Follow the on-screen instructions to use the program:
-
-To add an expense, choose option 1 and enter the required information.
-To view a summary of expenses, choose option 2.
-To quit the program, choose option 3.
-Expense data is stored in a text file named expenses.txt in the same directory as the program. You can review and manage your expenses by editing this file.
-
-License<a name="license"></a>
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Feel free to clone the repository, run the program, and start tracking your expenses today! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request. Happy expense tracking!
+# License:
+This project is licensed under the MIT License. See the 'LICENSE' file for details.
