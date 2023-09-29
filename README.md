@@ -2,28 +2,30 @@
 Expense Tracker is a simple C++ program that allows you to track and manage your expenses. It provides a text-based interface for adding expenses, displaying a summary of your expenses, and quitting the program. This repository contains the source code for the Expense Tracker program.
 
 Table of Contents
-Features
-Getting Started
-Prerequisites
-Clone the Repository
-Compilation
-Usage
-License
-Features<a name="features"></a>
-Add expenses with a date, description, and amount.
-Display a summary of all recorded expenses, including total expenses and the number of expenses.
-Data is stored in a text file for persistent storage.
-Getting Started<a name="getting-started"></a>
+1. Features
+2. Getting Started
+    a.Prerequisites
+    b. Clone the Repository
+    c. Compilation
+3. Usage
+4. License
+# Features<a name="features"></a>
+
+1. Add expenses with a date, description, and amount.
+2. Display a summary of all recorded expenses, including total expenses and the number of expenses.
+3. Data is stored in a text file for persistent storage.
+# Getting Started<a name="getting-started"></a>
+
 Prerequisites<a name="prerequisites"></a>
 Before you begin, ensure you have met the following requirements:
-
 C++ compiler (e.g., g++) installed on your system.
-Clone the Repository<a name="clone-the-repository"></a>
+
+# Clone the Repository<a name="clone-the-repository"></a>
 To get a local copy of the Expense Tracker program, you can use the following command in your terminal:
 
 shell
 Copy code
-git clone https://github.com/your-username/expense-tracker.git
+git clone git@github.com:RishabhPathak93/Expense-Tracker-usingcpp.git
 Replace your-username with your GitHub username.
 
 Compilation<a name="compilation"></a>
@@ -37,7 +39,8 @@ Then, use the following command to compile the program:
 shell
 Copy code
 g++ main.cpp -o expense_tracker
-Usage<a name="usage"></a>
+
+# Usage<a name="usage"></a>
 Run the program using the following command:
 shell
 Copy code
